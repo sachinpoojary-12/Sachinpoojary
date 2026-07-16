@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sachin Poojary</title>
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#f4f4f4;
+text-align:center;
+padding:50px;
+}
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+max-width:600px;
+margin:auto;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+h1{color:#0077cc;}
+button{
+background:#0077cc;
+color:white;
+padding:12px 25px;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+button:hover{
+background:#005fa3;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Welcome to My Website</h1>
+
+<h2>I'm Sachin Poojary</h2>
+
+<p>Automation Engineer</p>
+
+<p>I work on PLC Programming, HMI, SCADA, Siemens TIA Portal and Industrial Automation.</p>
+
+<button onclick="alert('Thank you for visiting my website!')">
+Contact Me
+</button>
+
+</div>
+
+</body>
+</html>
